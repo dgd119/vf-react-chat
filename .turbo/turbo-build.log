@@ -1,7 +1,0 @@
-@voiceflow/widget:build: cache hit, replaying output b29d66ce01843e45
-@voiceflow/widget:build: [log] [36mvite v3.2.2 [32mbuilding for production...[36m[39m
-@voiceflow/widget:build: [log] transforming...
-@voiceflow/widget:build: [error] [BABEL] Note: The code generator has deoptimised the styling of /home/runner/work/vf-react-chat/vf-react-chat/packages/react-chat/build/index.es.js as it exceeds the max of 500KB.
-@voiceflow/widget:build: [log] [32m✓[39m 36 modules transformed.
-@voiceflow/widget:build: [log] rendering chunks...
-@voiceflow/widget:build: [log] [90m[37m[2mdist/[22m[90m[39m[36mbundle.mjs  [39m [33m1187.37 KiB / gzip: 366.04 KiB[39m
