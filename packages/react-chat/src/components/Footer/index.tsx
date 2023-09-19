@@ -48,7 +48,11 @@ const Footer: React.FC<FooterProps> = ({ withWatermark, hasEnded, onStart, onSen
       )}
       {withWatermark && (
         <Watermark>
-          Assistant ⚡️ by
+          built by
+          <a target="_blank" href="https://sh.eep.dog" rel="noreferrer">
+            sheepdog
+          </a>
+          ⚡️ by
           <a target="_blank" href="https://voiceflow.com" rel="noreferrer">
             Voiceflow
           </a>

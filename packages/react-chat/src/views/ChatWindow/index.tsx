@@ -62,7 +62,7 @@ const ChatWindow: React.FC<ChatConfig & { assistant: Assistant; session: Session
           description={assistant.description}
           image={assistant.image}
           avatar={assistant.avatar}
-          withWatermark={assistant.watermark}
+          withWatermark={true}
           startTime={runtime.session.startTime}
           hasEnded={runtime.isStatus(SessionStatus.ENDED)}
           isLoading={!runtime.session.turns.length}

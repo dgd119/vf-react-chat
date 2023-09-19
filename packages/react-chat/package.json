@@ -104,7 +104,9 @@
     "storybook": "start-storybook -p 6006",
     "test": "yarn test:run",
     "test:dependencies": "depcheck",
-    "test:unit": "NODE_ENV=test vitest run --coverage"
+    "test:unit": "NODE_ENV=test vitest run --coverage",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "types": "build/index.d.ts"
 }
