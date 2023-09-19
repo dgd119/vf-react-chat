@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: Build and Deploy bundle
 on:
   push:
     branches:
@@ -12,13 +12,12 @@ jobs:
         with:
           persist-credentials: false
       - name: Install and Build
-        working-directory: ./packages/react-chat
         run: |
           yarn install
-          yarn build:docs
+          yarn build
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.4.0
         with:
-          branch: docs
-          folder: ./packages/react-chat/docs
+          branch: widget
+          folder: ./packages/widget/dist
           clean: true
