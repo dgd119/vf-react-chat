@@ -52,7 +52,7 @@ const Footer: React.FC<FooterProps> = ({ withWatermark, hasEnded, onStart, onSen
           <a target="_blank" href="https://sh.eep.dog" rel="noreferrer">
             sheepdog
           </a>
-          ⚡️ by
+           | ⚡️ by
           <a target="_blank" href="https://voiceflow.com" rel="noreferrer">
             Voiceflow
           </a>
