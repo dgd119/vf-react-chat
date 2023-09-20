@@ -30094,7 +30094,7 @@ const H8 = Na(ba.BUTTON), GR = Vt("button", {
         href: "https://sh.eep.dog",
         rel: "noreferrer",
         children: "sheepdog"
-      }), "\u26A1\uFE0F by", /* @__PURE__ */ dt("a", {
+      }), "| \u26A1\uFE0F by", /* @__PURE__ */ dt("a", {
         target: "_blank",
         href: "https://voiceflow.com",
         rel: "noreferrer",
